@@ -4,14 +4,26 @@ import java.util.Scanner;
 
 public class ReverseAnArray {
 
-    public static void reverseAnArray(int arr[]){
-        for(int i=0;i<arr.length-i-1;i++)
+    public static int [] reverseAnArray(int arr[]){
+
+        int[] temp=new int[arr.length];
+        for(int i=arr.length-1;i>=0;i--)
         {
-            int temp=arr[i];
-            arr[i]=arr[arr.length-i-1];
-            arr[arr.length-i-1]=temp;
+            temp[arr.length-i-1]=arr[i];
         }
+        return temp;
     }
+    
+//public static void reverseAnArrayUsingTemp(int []arr)
+//{
+//        for(int i=0;i<arr.length-i-1;i++)
+//        {
+//            int temp=arr[i];
+//            arr[i]=arr[arr.length-i-1];
+//            arr[arr.length-i-1]=temp;
+//        }
+//    }
+
 
     public static void main(String args[])
     {
@@ -25,13 +37,12 @@ public class ReverseAnArray {
             arr[i]=sc.nextInt();
         }
         System.out.println("resulting array is ");
-        reverseAnArray(arr);
-        for(int value:arr)
+        //reverseAnArrayUsingTemp(arr);
+
+        int[] rev=reverseAnArray(arr);
+        for(int value:rev)
         {
             System.out.print(value+ "\t");
         }
-
-
-
     }
 }
