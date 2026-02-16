@@ -13,7 +13,7 @@ public class ReverseAnArray {
         }
         return temp;
     }
-    
+
 //public static void reverseAnArrayUsingTemp(int []arr)
 //{
 //        for(int i=0;i<arr.length-i-1;i++)

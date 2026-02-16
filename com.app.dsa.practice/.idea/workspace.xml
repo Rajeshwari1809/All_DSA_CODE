@@ -40,6 +40,8 @@
     "Application.LargestElementInArray.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.SmallestElementInArray.executor": "Run",
+    "Application.SumOfArrayElements.executor": "Run",
+    "Application.SumOfConsecutiveArrayElements.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
