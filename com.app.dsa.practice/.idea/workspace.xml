@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2b066f12-0759-4370-94ff-8b8305829496" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/dsa/arrays/ReverseAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/dsa/arrays/ReverseAnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +36,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.CountOccurenceOfArrayElement.executor": "Run",
     "Application.LargestElementInArray.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
     "Application.SmallestElementInArray.executor": "Run",
