@@ -39,6 +39,7 @@
     "Application.CountOccurenceOfArrayElement.executor": "Run",
     "Application.LargestElementInArray.executor": "Run",
     "Application.ReverseAnArray.executor": "Run",
+    "Application.SecondLargestElementInArray.executor": "Run",
     "Application.SmallestElementInArray.executor": "Run",
     "Application.SumOfArrayElements.executor": "Run",
     "Application.SumOfConsecutiveArrayElements.executor": "Run",
